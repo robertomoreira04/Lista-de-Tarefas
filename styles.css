@@ -55,7 +55,7 @@ button:hover {
 }
 
 #todo-form {
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
     display: flex;
     gap: 15px;
     padding: 5px;
@@ -78,8 +78,23 @@ button:hover {
     padding: 5px;
 }
 
+#page-container {
+    position: relative;
+    width: 100%;
+    min-height: 77vh;
+    display: flex;
+    align-items: center;
+}
+
+
+ #content-wrap {
+    padding-bottom: 2.5rem;
+}
+
+
 footer {
-    position:absolute;
+    position: absolute;
+    left: 0;
     bottom: 0;
     width: 100%;
     height: 2.5rem;
@@ -88,5 +103,5 @@ footer {
     align-items: center;
     justify-content: center;
     border: 1px solid black;
-}
+};
 

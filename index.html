@@ -1,33 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lista de Tarefas</title>
 
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="styles.css">
-
-</head>
-<body>
-
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <header><h1>Lista de Tarefas</h1></header>
-    <main>
+    <main id="page-container">
+      <div id="content-wrap">
         <form id="todo-form">
-            <input type="text" placeholder="Informe a sua tarefa..." id="task-title-input">
-            <button type="submit"
-            id="add-task-button">Adicionar
-            </button>
+          <input
+            type="text"
+            placeholder="Informe a sua tarefa..."
+            id="task-title-input"
+          />
+          <button type="submit" id="add-task-button">Adicionar</button>
         </form>
 
         <section>
-            <ul id="todo-list">
-            </ul>
+          <ul id="todo-list"></ul>
         </section>
+      </div>
+      <footer id="footer">Desenvolvido por Roberto Moreira 🤪</footer>
     </main>
 
-    <footer>Desenvolvido por Roberto Moreira 🤪</footer>
-
     <script src="index.js"></script>
-</body>
+  </body>
 </html>
