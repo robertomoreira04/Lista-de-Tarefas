@@ -2,15 +2,32 @@
     margin: 0;
     padding: 0;
     font-family: Helvetica, sans-serif;
-    color: #333;
+    color: #ffffff;
+}
+
+header {
+    width: 70%;
 }
 
 h1 {
-    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-bottom: 40px;
+    background-color: #102f5e;
+    padding: 2rem;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+ main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 body {
-    background-color: rgba(0, 0, 0, 0.602);
+    background-color: #333333;
     display: grid;
     place-items: center;
     margin-top: 3rem;
@@ -21,34 +38,55 @@ input {
     color: #102f5e;
     border-radius: 5px;
     border: 2px solid black;
-    padding: .2rem;
+    padding: .5rem;
 }
 
 button {
-    background-color: #fdfdfd;
-    color: #102f5e;
+    background-color: #102f5e;
+    color:white;
     border-radius: 5px;
     border: 2px solid black;
-    padding: .2rem;
-    transition: 0.4s
+    padding: .4rem;
+    transition: 0.4s;
 }
 
 button:hover {
-    background-color: #102f5e4c;
+    background-color: red;
 }
 
 #todo-form {
-    margin-bottom: 1rem;
+    margin-bottom: 6rem;
+    display: flex;
+    gap: 15px;
+    padding: 5px;
 }
 
 #todo-list li {
     margin-bottom: 1rem;
     display: flex;
-    gap: 10px;
+    gap: 15px;
     align-items: center;
 }
 
 #todo-list {
     list-style-type: none;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 5px;
+}
+
+footer {
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    background-color: #102f5e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
 }
 
